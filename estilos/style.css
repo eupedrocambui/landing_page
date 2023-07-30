@@ -38,7 +38,7 @@
 /* Header começo */
 header {
     background-color: var(--cor6);
-    height: 110px;
+    height: 105px;
 }
 
 .container {
@@ -49,19 +49,8 @@ header {
     height: 105px;
 }
 
-#simbolo img, #simbolo a {
-    width: 100px;
-    height: 105px;
-}
-
-#logotipo {
-    height: 130px;
-    width: 120px;
-}
-
-#logotipo img {
-    height: 100%;
-    width: 100%;
+#logo {
+    margin-right: 30px;
 }
 
 nav {
@@ -76,7 +65,7 @@ nav a {
     color: lightgray;
     text-decoration: none;
     margin-right: 13px;
-    font-size: 1.1em;
+    font-size: 3.2vw;
 }
 
 nav a:hover {
