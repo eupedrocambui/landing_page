@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Aboveregular;
+    src: url(../fontes/AboveDemoRegular-lJMd.ttf)
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Neoteric;
+    src: url(../fontes/Neoteric-32A8.ttf)
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --fonte_arial: 'Arial, Helvetica, sans-serif';
+    --fonte_above_regular: 'Aboveregular';
+    --fonte_neoteric: 'Neoteric';
+
+    --cor1: #3C24F2;
+    --cor2: #5C0AFF;
+    --cor3: #75FFED;
+    --cor4: #CA26FC;
+    --cor5: #EF24F2;
+    --cor6: #23232e;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Header começo */
+header {
+    background-color: var(--cor6);
+    height: 110px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 105px;
+}
+
+#simbolo img, #simbolo a {
+    width: 100px;
+    height: 105px;
+}
+
+#logotipo {
+    height: 130px;
+    width: 120px;
+}
+
+#logotipo img {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    width: 85vw;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a {
+    color: lightgray;
+    text-decoration: none;
+    margin-right: 13px;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    color: white;
+}
+/* Header fim */
+
+/* Body começo */
+body {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #3a3a4b;
+}
+/* Body fim */
