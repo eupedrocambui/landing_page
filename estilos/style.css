@@ -80,6 +80,11 @@ body {
     width: 100vw;
     height: 100vh;
 
-    background-color: #3a3a4b;
+    background-color: #000000;
 }
 /* Body fim */
+
+/* Div principal */
+#principal {
+    background-image: linear-gradient(to right, #17191A, #242526);
+}
